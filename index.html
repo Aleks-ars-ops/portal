@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новостной портал</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f2f5; padding: 20px; margin: 0; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { text-align: center; color: #2c3e50; }
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap: 20px; margin-top: 30px; }
+        .news-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .news-card h3 { margin: 0 0 10px; color: #2c3e50; }
+        .news-card p { color: #666; line-height: 1.4; }
+        .btn { display: inline-block; background: #3498db; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; margin-top: 10px; }
+        .btn:hover { background: #2980b9; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📰 Новостной портал</h1>
+    <div class="news-grid">
+        <div class="news-card"><h3>Искусственный интеллект в журналистике</h3><p>Как нейросети помогают создавать контент и анализировать данные...</p><a href="#" class="btn">Читать далее →</a></div>
+        <div class="news-card"><h3>Тренды веб-дизайна 2025</h3><p>Минимализм, микроанимации и тёмные темы...</p><a href="#" class="btn">Читать далее →</a></div>
+        <div class="news-card"><h3>SEO-стратегии для малого бизнеса</h3><p>Как выйти в топ без огромного бюджета...</p><a href="#" class="btn">Читать далее →</a></div>
+        <div class="news-card"><h3>Адаптивный дизайн</h3><p>Почему это важно для бизнеса и SEO...</p><a href="#" class="btn">Читать далее →</a></div>
+        <div class="news-card"><h3>Кибербезопасность в малом бизнесе</h3><p>Простые шаги для защиты данных...</p><a href="#" class="btn">Читать далее →</a></div>
+        <div class="news-card"><h3>Как запустить интернет-магазин</h3><p>Пошаговый план от идеи до первой продажи...</p><a href="#" class="btn">Читать далее →</a></div>
+    </div>
+</div>
+</body>
+</html>
